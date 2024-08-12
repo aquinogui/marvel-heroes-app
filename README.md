@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Marvel Heroes App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🌟 Descrição
 
-## Available Scripts
+O **Marvel Heroes App** é uma aplicação interativa que permite aos usuários explorar e descobrir detalhes dos personagens do universo Marvel. Esta plataforma intuitiva e visualmente atraente oferece recursos como filtragem de heróis, visualização de detalhes e acesso a informações sobre suas aparições em quadrinhos e filmes.
 
-In the project directory, you can run:
+## 🚀 Funcionalidades Principais
 
-### `npm start`
+- **Filtro e Ordenação:** Pesquise e organize heróis por nome ou popularidade.
+- **Favoritos:** Marque e acesse rapidamente seus heróis favoritos.
+- **Detalhes dos Heróis:** Página detalhada com informações sobre cada herói, incluindo suas aparições em quadrinhos e filmes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React:** Para construção da interface de usuário, proporcionando uma experiência fluida e responsiva.
+- **JavaScript (ES6+):** Lógica de programação e manipulação de dados.
+- **CSS3:** Design e estilização da aplicação, incluindo animações e responsividade.
+- **Axios:** Para realizar requisições à API da Marvel, garantindo integração de dados em tempo real.
+- **Marvel API:** Fonte de dados para informações detalhadas sobre os heróis, quadrinhos e filmes.
 
-### `npm test`
+## 📚 Estrutura do Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```plaintext
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── services/
+│   ├── styles/
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── .gitignore
+├── package.json
+└── README.md
+```
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📦 Instalação
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone o repositório:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+git clone https://github.com/seu-usuario/marvel-heroes-app.git
 
-### `npm run eject`
+Navegue até o diretório do projeto:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+cd marvel-heroes-app
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📦 InstalaçãoInstale as dependências: 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Certifique-se de que você tem o Node.js instalado em sua máquina. Em seguida, execute:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm install
 
-## Learn More
+## 📦  Inicie a aplicação:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Depois de instalar as dependências, inicie o servidor de desenvolvimento com:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm start
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Isso abrirá a aplicação no seu navegador padrão em http://localhost:3000.
