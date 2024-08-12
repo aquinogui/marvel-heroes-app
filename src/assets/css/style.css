@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+header h2 {
+    color: #404040;
+    text-transform: uppercase;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+header h6 {
+    color: #8c8c8c;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 60px;
+}
+
+
+/* HEROES LIST */
+
+#heroes .container {
+    display: flex;
+}
+
+.bar {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-top: 60px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+.order-favorites {
+    display: flex;
+    align-items: center;
+}
+
+.favorites {
+    display: flex;
+    color: #ff1510;
+    font-size: 18px;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.favorites img {
+    height: 30px;
+    width: 30px;
+    margin-right: 15px ;
+}
+
+.bar h4 {
+    color: #b9b9b9;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.bar h5 {
+    color: #ff1510;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#list-heroes .container {
+    display: flex;
+    justify-content: space-between;
+}
+.card-heroes {
+    max-width: 300ox;
+}
+.card-heroes img {
+    height: 340px;
+    width: 340px;
+    border-bottom: 4px solid #ff1510;
+}
+.button-favorite {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-favorite img {
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+
+/*FOOTER */
+
+footer {
+    margin: 0;
+    height: 80px;
+    background: #ff1510;
+    width: 100%;
+    margin-top: 50px;
+}
